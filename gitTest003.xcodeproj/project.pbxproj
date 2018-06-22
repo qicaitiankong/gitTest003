@@ -16,6 +16,7 @@
 		992E9AF120DC9D8000706DBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 992E9AF020DC9D8000706DBA /* main.m */; };
 		992E9AFB20DC9D8000706DBA /* gitTest003Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 992E9AFA20DC9D8000706DBA /* gitTest003Tests.m */; };
 		992E9B0620DC9D8000706DBA /* gitTest003UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 992E9B0520DC9D8000706DBA /* gitTest003UITests.m */; };
+		992E9B1520DCA63400706DBA /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 992E9B1420DCA63400706DBA /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		992E9B0120DC9D8000706DBA /* gitTest003UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitTest003UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		992E9B0520DC9D8000706DBA /* gitTest003UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitTest003UITests.m; sourceTree = "<group>"; };
 		992E9B0720DC9D8000706DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		992E9B1320DCA63400706DBA /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		992E9B1420DCA63400706DBA /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				992E9AEC20DC9D8000706DBA /* LaunchScreen.storyboard */,
 				992E9AEF20DC9D8000706DBA /* Info.plist */,
 				992E9AF020DC9D8000706DBA /* main.m */,
+				992E9B1320DCA63400706DBA /* TableViewCell.h */,
+				992E9B1420DCA63400706DBA /* TableViewCell.m */,
 			);
 			path = gitTest003;
 			sourceTree = "<group>";
@@ -341,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				992E9AE620DC9D8000706DBA /* ViewController.m in Sources */,
+				992E9B1520DCA63400706DBA /* TableViewCell.m in Sources */,
 				992E9AF120DC9D8000706DBA /* main.m in Sources */,
 				992E9AE320DC9D8000706DBA /* AppDelegate.m in Sources */,
 			);
